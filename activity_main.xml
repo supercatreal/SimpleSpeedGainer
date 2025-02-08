@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/speedKmhTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:text="0.0KM/h"/>
+    <TextView
+        android:id="@+id/speedMsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="0dp"
+        android:text="SPEED: 0.0 m/s"/>
+
+    <TextView
+        android:id="@+id/satelliteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="SatliteNum: 0"/>
+
+    <TextView
+        android:id="@+id/maxSpeedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="MaxSpeed: 0.0 km/h"/>
+    <TextView
+        android:id="@+id/minSpeedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="MinSpeed: 0.0 km/h"/>
+    <TextView
+        android:id="@+id/accelerationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="0dp"
+        android:text="CurrentAcceleration: 0.00 m/s²"/>
+</LinearLayout>
