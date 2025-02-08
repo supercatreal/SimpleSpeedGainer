@@ -17,7 +17,7 @@
         android:theme="@style/Theme.SpeedGainer"
         tools:targetApi="31">
 
-        <!-- 添加 MainActivity 声明 -->
+        <!-- Add MainActivity declaration. -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
